@@ -1,0 +1,2 @@
+# NumeroSimpaticoJavaScript
+Practica JavaScript
