@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NumeroSimpatico</title>
+    <script type="text/javascript">
+        let numero = parseInt(prompt("Introduce un numero"));
+        let binario = numero.toString(2);
+        let array = binario.split("");
+        console.log(array);
+        let simpatico = true;
+        for (let i=1;i<array.length;i++){
+            if (array[i-1]==array[i]){
+                simpatico=false;
+                break;
+            }
+        }
+
+        if (simpatico){
+            alert("El numero es simpatico");
+        }else {
+            alert("El numero no es simpatico");
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
